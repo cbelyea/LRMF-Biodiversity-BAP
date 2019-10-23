@@ -1,0 +1,2 @@
+# LRMF-Biodiversity-BAP
+Calculates and plots biodiveristy indices for fish population survey data collected by the Large River Monitoring Forum.  Plots and input data with appended indices are saved in .png and .csv format.  Indices calculated are: Margalef Species Richness Index (d); Shannon-Wiener Log(e) Log(2) and Log(10) indices (H');  Simpson's Diversity Indices (Lambda, 1-Lambda, Lambda' and 1-Lambda'); Hill Numbers N1, N2, N-Inf, N10, N10', N21, N21'; Pielou's Evenness Index.
