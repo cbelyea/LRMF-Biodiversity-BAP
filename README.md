@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+﻿
 # Table of contents
 1.	[Purpose](#purpose)
 2.	[Inputs](#inputs)
