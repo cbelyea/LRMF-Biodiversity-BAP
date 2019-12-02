@@ -27,7 +27,18 @@ The initial work of the forum focused on comparisons of methods and documented i
 
 ## Inputs <a name="inputs"></a>
 The bases of the analyses are the fish assemblage data Large River Monitoring Forum Fish Assemblage Database 2016 (https://www.sciencebase.gov/catalog/item/575ee33fe4b04f417c2b05ca).  That dataset includes data for the Colorado, Columbia, Mississippi, Illinois and Tallapoosa Rivers.  For each river the fish assemblage data collected during the monitoring efforts was compiled and summarized as the mean number of individuals of that species in that reach for a given year.  
+
+The native format of the LRMF assemblage data is ESRI Geodatabase (.gdb), which contains polyline feature classes depicting river stretches and tables containing the species assemblage data.  As such, the following intermediate steps were taken to get the assemblage data into csv format for use as input for the scripting in the attached i python notebook, for each river table.
+
+*  Open ESRI's ArcMap
+*  Add each river table from the LRMF geodatabase
+*  Open each table by right-clicking on the table name in the ArcMap Table of Contents and choosing "Open"
+*  From "Table Options", choose "Export"
+*  Save as text/csv file (i.e. "Colorado_biodiv.csv")
+
+
 The analysis package was developed with the following environment(s):
+
 *  Python 2.7.13 with math module
 *  Anaconda 4.3.1, with Jupyter Notebook
 *  Pandas 0.19.2
