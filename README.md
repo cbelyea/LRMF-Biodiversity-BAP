@@ -39,7 +39,7 @@ The native format of the LRMF assemblage data is ESRI Geodatabase (.gdb), which 
 
 The analysis package was developed with the following environment(s):
 
-*  Python 2.7.13 with math module
+*  Python 3.6 with math and os modules
 *  Anaconda 4.3.1, with Jupyter Notebook
 *  Pandas 0.19.2
 *  Matplotlib 2.0.0
