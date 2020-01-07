@@ -1,4 +1,4 @@
-name: LRMF_BAP_Env3
+name: lrmf_env
 channels:
   - defaults
 dependencies:
